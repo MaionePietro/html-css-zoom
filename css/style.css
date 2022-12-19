@@ -7,29 +7,41 @@
     font-family: 'Roboto', sans-serif;
 }
 
-main{
-    background-color: black;
-    height: 90vh;
-    
-}
+
 
 /********
 MAIN 
 ********/
+main{
+    background-color: black;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.box-up{
+    position: absolute;
+    top: 1px; ;
+    right: 1px;
+    color: white;
+    display: flex;
+    gap: 10px;
+}
+.box-up .view, .full{
+    background-color: rgb(29,29,29);
+    border-radius: 5px;
+    padding: 5px;
+}
+.row-main{
+    display: flex;
+    justify-content: center;
+}
 .box-img{
     margin: 8px 3px;
     height: 15vh;
     width: 25vh;
     position: relative;
-}
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.row-main{
-    display: flex;
-    justify-content: center;
 }
 .visual-mic{
     position: absolute;
