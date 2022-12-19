@@ -9,24 +9,42 @@
 
 main{
     background-color: black;
-    height: 700px;
+    height: 90vh;
+    
 }
-footer{
-    background-color: rgb(43,40,32);
-    min-height: 100px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-}
-div{
+
+/********
+MAIN 
+********/
+.box-img{
+    height: 15vh;
+    width: 25vh;
+    color: aliceblue;
     border: 2px dotted blue;
-    padding: 10px;
 }
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row-main{
+    display: flex;
+    justify-content: center;
+}
+/********
+MAIN 
+********/
 
 
 /********
 FOOTER  
 ********/
+footer{
+    background-color: rgb(31,31,31);
+    height: 10vh;
+    width: 100vw;
+}
+
 .fa-solid{
     color: white;
     font-size: 30px;
@@ -36,13 +54,39 @@ FOOTER
     justify-content: center;
     justify-content: space-between;
 }
-.list-in-out{
+.list{
     list-style: none;
+    display: flex;
 }
 li{
+    padding: 10px;
     text-align: center;
     display: flex;
     flex-direction: column;
+    gap: 10px;
+}
+.text{
+    color: white;
+    font-size: small;
+}
+.green{
+    color: rgb(66,193,0);
+}
+.level{
+    line-height: 50px;
+    font-size: small;
+}
+
+.end{
+    background-color: rgb(65,65,65);
+    display: flex;
+    align-items: center;
+}
+.end-text{
+    padding: 10px;
+    color: red;
+    text-align: center;
+    font-size: small;
 }
 /********
 FOOTER  
